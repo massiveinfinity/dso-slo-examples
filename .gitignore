@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.fleet/
+
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+.dynamodb
+config/serverless.env.yml
+
+.env
+.env.production
+.env.staging
+.env.development
+.env*
+.mavisrc
+keys/
+.jshintrc
+.idea
+.webpack
+_optimize
+.scannerwork
+DynamoDBLocal_lib
+*.jar
+dist
