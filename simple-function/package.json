@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@massiveinfinity/slo-autometrics": "file:../../../research/autometrics-ts/dist/autometrics",
-    "@massiveinfinity/slo-exporter-prometheus-push-gateway": "file:../../../research/autometrics-ts/dist/exporter-prometheus-push-gateway"
+    "@massiveinfinity/slo-autometrics": "^1.0.1-mi.3",
+    "@massiveinfinity/slo-exporter-prometheus-push-gateway": "^1.0.1-mi.3"
   }
 }

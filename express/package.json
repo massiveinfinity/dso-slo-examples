@@ -19,8 +19,8 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@massiveinfinity/slo-autometrics": "file:../../../research/autometrics-ts/dist/autometrics",
-    "@massiveinfinity/slo-exporter-prometheus": "file:../../../research/autometrics-ts/dist/exporter-prometheus",
+    "@massiveinfinity/slo-autometrics": "^1.0.1-mi.3",
+    "@massiveinfinity/slo-exporter-prometheus": "^1.0.1-mi.3",
     "express": "^4.18.2",
     "express-basic-auth": "^1.2.1",
     "node-fetch": "^3.3.1"

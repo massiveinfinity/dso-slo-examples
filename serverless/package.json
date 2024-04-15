@@ -14,8 +14,8 @@
     "serverless-offline": "^13.3.3"
   },
   "dependencies": {
-    "@massiveinfinity/slo-autometrics": "file:../../../research/autometrics-ts/dist/autometrics",
-    "@massiveinfinity/slo-exporter-prometheus-push-gateway": "file:../../../research/autometrics-ts/dist/exporter-prometheus-push-gateway",
+    "@massiveinfinity/slo-autometrics": "^1.0.1-mi.3",
+    "@massiveinfinity/slo-exporter-prometheus-push-gateway": "^1.0.1-mi.3",
     "dotenv": "^16.4.5",
     "serverless": "^3.38.0"
   }
