@@ -48,7 +48,7 @@ const recordErrorIf = (res: express.Response) => {
 
 app.get(
   "/users",
-  autometrics({ recordErrorIf, objective: API_SLO }, handleGetUsers),
+  autometrics({ monitorId:'[monitorId]',recordErrorIf, objective: API_SLO }, handleGetUsers),
 );
 app.get(
   "/users/:id",

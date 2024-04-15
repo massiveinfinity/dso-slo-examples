@@ -1,0 +1,22 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sls offline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^13.3.3"
+  },
+  "dependencies": {
+    "@massiveinfinity/slo-autometrics": "file:../../../research/autometrics-ts/dist/autometrics",
+    "@massiveinfinity/slo-exporter-prometheus-push-gateway": "file:../../../research/autometrics-ts/dist/exporter-prometheus-push-gateway",
+    "dotenv": "^16.4.5",
+    "serverless": "^3.38.0"
+  }
+}

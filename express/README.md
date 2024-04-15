@@ -26,7 +26,7 @@ MASSIVE_TENANT_ID=sample-tenant-id npm start
 
 # or with protected route
 
-MASSIVE_TENANT_ID=sample-tenant-id PROTECT_ROUTE=true npm start
+MASSIVE_TENANT_ID=sample-tenant-id PROTECT_ROUTE=true  npm start
 ```
 
 The example should run and generate some sample traffic by itself
