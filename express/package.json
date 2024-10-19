@@ -21,7 +21,7 @@
   "dependencies": {
     "@massiveinfinity/slo-autometrics": "^1.0.1-mi.3",
     "@massiveinfinity/slo-exporter-prometheus": "^1.0.1-mi.3",
-    "express": "^4.18.2",
+    "express": "^4.21.1",
     "express-basic-auth": "^1.2.1",
     "node-fetch": "^3.3.1"
   }
